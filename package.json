@@ -1,0 +1,37 @@
+{
+  "name": "dear-subjects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnproestakes/dear-subjects.git"
+  },
+  "author": "John Proestakes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnproestakes/dear-subjects/issues"
+  },
+  "homepage": "https://github.com/johnproestakes/dear-subjects#readme",
+  "devDependencies": {
+    "gulp": "~3.x.x",
+    "gulp-concat": "~2.6.0",
+    "gulp-connect": "^5.6.1",
+    "gulp-htmlmin": "~2.0.0",
+    "gulp-sass": "~2.3.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "~2.13.4",
+    "gulp-uglify": "~1.5.3",
+    "gulp-zip": "~3.2.0"
+  },
+  "dependencies": {
+    "angular": "^1.7.4",
+    "angular-route": "^1.7.4",
+    "angular-sanitize": "^1.7.4",
+    "jquery": "~2.2.4",
+    "semantic-ui": "^2.4.0"
+  }
+}

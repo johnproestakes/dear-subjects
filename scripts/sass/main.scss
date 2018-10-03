@@ -1,0 +1,120 @@
+#filters {
+  margin-top: 1em;
+}
+h1 { padding-top:.5em;}
+body {background-color: #eee;}
+span.highlight {
+  background:rgba(251, 189, 8, 0.33);
+  border-radius: 3px;
+    padding: 0 2px;
+}
+
+#writer textarea{
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  -o-appearance:none;
+  appearance: none;
+  background: transparent;
+  border:none;
+  outline:0;
+  resize:none;
+  font-size: 20px;
+  &:focus{
+      outline: 0;
+  }
+}
+.ui.scrollable.table {
+  thead, tbody {
+    display:block;
+
+  }
+}
+#writer {background: #fff;
+  cursor:text;
+  padding: 1em 1em 2em 1em;
+  margin-bottom: 1em;
+  box-shadow: 0 0 0 0.75pt #d1d1d1, 0 0 3pt 0.75pt #ccc;
+  textarea{width: 100%;}
+
+  textarea
+  {
+    &::selection {
+      background: #a333c8;
+      color: #fff;
+    }
+    &::-webkit-input-placeholder,::-moz-placeholder,:-ms-input-placeholder,:-moz-placeholder,::placeholder {
+    font-style:italic;
+  }
+}
+}
+
+
+
+
+
+
+
+
+
+.sl.card-container {
+  float:left;
+  width: 50%;
+}
+@media (min-width: 990px){
+  .sl.card-container {width: 33%}
+}
+
+.sl.card.active {
+  background-color: #fff;
+  border-color: #a333c8;
+  border-width: medium;
+  color: #a333c8;
+
+  &:hover {color: #a333c8;}
+}
+.sl.card {
+  display: block;
+  color: rgba(34, 36, 38, 0.15);
+  &:hover {color: rgba(34, 36, 38, 0.5);}
+  background-color: #f8f8f9;
+  padding: .5em;
+  margin: .5em;
+  font-size: 18px;
+  border-radius: .285714286em;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  height: 6em;
+
+}
+.sl-padding.ui.celled.grid>.column:not(.row), .sl-padding.ui.celled.grid>.row>.column{
+  padding:.5em;
+}
+.clear {clear:both;}
+
+.sl-padding.ui.grid>.row{
+    padding-bottom: .5em;
+    padding-top: .5em;
+  }
+.sl-padding.ui.grid>.row:first-child{padding-top: 1em;}
+.sl-padding.ui.grid>.column:not(.row), .sl-padding.ui.grid>.row>.column{
+  padding-left: .5em;
+  padding-right: .5em;
+}
+.sl.fixed.top {
+
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: auto;
+    position: fixed;
+    z-index: 101;
+    margin: 0;
+    width: 100%;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    background: #fff;
+    font-weight: 400;
+    border: 1px solid rgba(34,36,38,.15);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    border-radius: 0;
+    min-height: 2.85714286em;
+}
